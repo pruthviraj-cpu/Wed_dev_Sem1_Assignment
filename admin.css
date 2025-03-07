@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.header .logo img {
+    height: 40px;
+    width: auto;
+}
+
+.header .navbar a {
+    margin: 0 15px;
+    font-size: 1.2rem;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.header .navbar a:hover {
+    color: #ff6347; 
+}
+
+.header .search input {
+    height: 30px;
+    width: 200px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+form {
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-top: 200px;
+}
+form .form-group{
+    margin: 20px;
+}
+
+h2, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.error {
+    color: red;
+    font-size: 0.9rem;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    background-color: #3b4eff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #2a3acb;
+}
+
+.registration-container a {
+    
+    color: #fff;
+    text-decoration: none;
+}
